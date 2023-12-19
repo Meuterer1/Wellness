@@ -32,7 +32,7 @@ const SectionClasses = () => {
         <CardTitle>Personal Training</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/assets/Personal_Training.jpg"
+            src="/Personal_Training.jpg"
             alt="personal training"
             loading="lazy"
           />
