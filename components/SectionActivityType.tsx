@@ -12,8 +12,8 @@ const SectionActivityTypes = () => {
     <SectionBlock background={`${white}`}>
       <H2>Train however you like</H2>
       <Div>
-        <VerticalImage src="/assets/Training_Solo.jpg" />
-        <AbsoluteImage src="/assets/GYM.jpg" />
+        <VerticalImage src="assets/Training_Solo.jpg" />
+        <AbsoluteImage src="assets/GYM.jpg" />
       </Div>
       <Div>
         <OrderedList>

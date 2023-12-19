@@ -22,10 +22,10 @@ const SectionTrainers = () => {
       </Div>
 
       <Div>
-        <MediumImage src="/assets/Ann.jpg" />
-        <MediumImage src="/assets/Mark.jpg" />
-        <MediumImage src="/assets/John.jpg" />
-        <MediumImage src="/assets/Joana.jpg" />
+        <MediumImage src="assets/Ann.jpg" />
+        <MediumImage src="assets/Mark.jpg" />
+        <MediumImage src="assets/John.jpg" />
+        <MediumImage src="assets/Joana.jpg" />
       </Div>
     </SectionBlock>
   );

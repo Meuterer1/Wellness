@@ -45,20 +45,20 @@ const Header = () => {
       <TransparentButton>Check Options</TransparentButton>
       <SectionBlock background="transparent">
         <Tail>
-          <SmallImage src="/assets/icons/header_yoga-pose.png" alt="yoga" />
+          <SmallImage src="assets/icons/header_yoga-pose.png" alt="yoga" />
           <TextTail>Yoga</TextTail>
         </Tail>
         <Tail>
-          <SmallImage src="/assets/icons/header_strength.png" alt="strength" />
+          <SmallImage src="assets/icons/header_strength.png" alt="strength" />
           <TextTail>Strength</TextTail>
         </Tail>
         <Tail>
-          <SmallImage src="/assets/icons/header_fitness.png" alt="fitness" />
+          <SmallImage src="assets/icons/header_fitness.png" alt="fitness" />
           <TextTail>Fitness</TextTail>
         </Tail>
         <Tail>
           <SmallImage
-            src="/assets/icons/header_stretching.png"
+            src="assets/icons/header_stretching.png"
             alt="stretching"
           />
           <TextTail>Stretch</TextTail>

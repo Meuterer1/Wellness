@@ -32,7 +32,7 @@ const SectionClasses = () => {
         <CardTitle>Personal Training</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/Personal_Training.jpg"
+            src="assets/Personal_Training.jpg"
             alt="personal training"
             loading="lazy"
           />
@@ -47,7 +47,7 @@ const SectionClasses = () => {
         <CardTitle>Yoga Classes</CardTitle>
         <CardBody width={100}>
           <Image
-            src="Yoga_Classes.jpg"
+            src="assets/Yoga_Classes.jpg"
             alt="personal training"
             loading="lazy"
           />
@@ -62,7 +62,7 @@ const SectionClasses = () => {
         <CardTitle>Stretching</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/assets/Stretching.jpg"
+            src="assets/Stretching.jpg"
             alt="personal training"
             loading="lazy"
           />
@@ -77,7 +77,7 @@ const SectionClasses = () => {
         <CardTitle>Zumba</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/assets/Zumba.jpg"
+            src="assets/Zumba.jpg"
             alt="personal training"
             loading="lazy"
           />
@@ -91,7 +91,7 @@ const SectionClasses = () => {
       <Card ref={ref} style={{ scale, y }}>
         <CardTitle>TRX</CardTitle>
         <CardBody width={100}>
-          <Image src="/assets/TRX.jpg" alt="personal training" loading="lazy" />
+          <Image src="assets/TRX.jpg" alt="personal training" loading="lazy" />
           <TextCard>
             Osiągnij cele fitness z treningiem personalnym dostosowanym do
             Ciebie i prowadzonym przez doświadczonego trenera.
@@ -103,7 +103,7 @@ const SectionClasses = () => {
         <CardTitle>Fitness</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/assets/Fitness.jpg"
+            src="assets/Fitness.jpg"
             alt="personal training"
             loading="lazy"
           />

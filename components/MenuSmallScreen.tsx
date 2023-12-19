@@ -8,9 +8,7 @@ import { Logo } from "./styled components/text";
 
 import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { H3 } from "./styled components/h1";
 import { Menu } from "./styled components/menu";
-import { white } from "./styled components/variables";
 
 const MenuSmallScreen = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -32,7 +30,9 @@ const MenuSmallScreen = () => {
             <FontAwesomeIcon icon={faCircleXmark} size="xl" />
           </NoBorderButton>
           <ColumnDiv>
-            <PrimaryLink to={"#"} align={"end"}>Home</PrimaryLink>
+            <PrimaryLink to={"#"} align={"end"}>
+              Home
+            </PrimaryLink>
             <PrimaryLink to={"#"}>Account</PrimaryLink>
             <PrimaryLink to={"#"}>Classes</PrimaryLink>
           </ColumnDiv>

@@ -18,7 +18,7 @@ const SectionLoseWeight = () => {
         </TextCard>
         <Button>Check all options</Button>
       </DivRight>
-      <Image src="/assets/Lose_Weight.jpg" />
+      <Image src="assets/Lose_Weight.jpg" />
     </SectionBlock>
   );
 };
