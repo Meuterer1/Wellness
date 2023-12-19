@@ -47,7 +47,7 @@ const SectionClasses = () => {
         <CardTitle>Yoga Classes</CardTitle>
         <CardBody width={100}>
           <Image
-            src="/assets/Yoga_Classes.jpg"
+            src="Yoga_Classes.jpg"
             alt="personal training"
             loading="lazy"
           />
