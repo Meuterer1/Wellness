@@ -25,7 +25,7 @@ export const DivRight = styled(Div)`
 `;
 
 export const DivOverlayed = styled(Div)`
-  background: url("./assets/header_main_page.jpg") no-repeat;
+  background: url("/assets/header_main_page.jpg") no-repeat;
   background-size: cover;
   background-position: -1000px 0;
   color: ${white};
