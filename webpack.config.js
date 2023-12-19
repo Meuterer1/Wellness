@@ -1,14 +1,14 @@
-const path = require("path").resolve;
+const path = require("path");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    index: path(__dirname, ".", "src", "index.tsx"),
+    index: path.resolve(__dirname, ".", "src", "index.tsx"),
   },
   output: {
     filename: "[name].[contenthash:6].js",
-    path: path(__dirname, ".", "build"),
+    path: path.resolve(__dirname, ".", "build"),
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
@@ -41,7 +41,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path(__dirname, ".", "public", "index.html"),
+      template: path.resolve(__dirname, ".", "public", "index.html"),
     }),
   ],
 };
