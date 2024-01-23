@@ -3,16 +3,14 @@ import ReactDOM from "react-dom";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import MainPage from "../components/MainPage";
 import Navigation from "../components/Navigation";
-import SectionActivityTypes from "../components/SectionActivityType";
-import SectionClasses from "../components/SectionClasses";
-import SectionLoseWeight from "../components/SectionLoseWeight";
-import SectionTrainers from "../components/SectionTrainers";
 
-import { BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./styles.css";
 
 const App = () => {
+  
   return (
     <>
       <Router>
@@ -20,13 +18,9 @@ const App = () => {
           <Navigation />
           <Header />
         </header>
-        <main>
-          <SectionClasses />
-          <SectionActivityTypes />
-          <SectionLoseWeight />
-          <SectionTrainers />
-        </main>
-        <Routes></Routes>
+        <Routes>
+          <Route index path="/" element={<MainPage />} />
+        </Routes>
         <Footer />
       </Router>
     </>

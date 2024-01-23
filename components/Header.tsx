@@ -42,7 +42,9 @@ const Header = () => {
       <Button onClick={handleButtonOnClick} whileHover={{ scale: 1.1 }}>
         Find Us
       </Button>
-      <TransparentButton>Check Options</TransparentButton>
+      <TransparentButton whileHover={{ scale: 1.1 }}>
+        Check Options
+      </TransparentButton>
       <SectionBlock background="transparent">
         <Tail>
           <SmallImage src="assets/icons/header_yoga-pose.png" alt="yoga" />

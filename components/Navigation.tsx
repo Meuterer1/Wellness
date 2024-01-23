@@ -16,7 +16,7 @@ const Navigation = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  });
+  }, []);
 
   const isSmallScreen = windowWidth < 768;
 

@@ -22,7 +22,7 @@ const SectionClasses = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
-
+0
   return (
     <SectionBlock background={`${gray}`} ref={targetRef}>
       <H2 ref={ref} style={{ scale, y }}>
